@@ -1,0 +1,1 @@
+This is an simple flask app made my me , it has 3 routes named index, Troll, About index: Facts/quiz for hackclub members . Troll: check it out. About: about me and my contact/social media handle. This project took me around a hour and i learned basics of flask. This was made for ysws of hackclub. #Languages used: python html css shell
