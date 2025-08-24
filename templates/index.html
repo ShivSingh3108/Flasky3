@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Flasky{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    {% block content %}
+    <div class="container">
+      <h1>This is page is a fun quiz for hackclub members.</h1>
+        <p>This quiz contains question related to hackclub</p>
+        <p>This is a basic flask app because i was low on time , so i couldnt at add some features so you can also consider this as facts</p>
+        <p>All the best!</p>
+        
+    </div>
+    <div class="container1">
+        <h2>Q.1 When was hacklub founded ? </h2> 
+        <details>
+            <summary>answer</summary>
+            <h3>in 2014</h3>
+            </details>
+        <h2>Q.2 Who is the founder of hackclub ? </h2>
+        <details>
+            <summary>answer</summary>
+            <h3>Zach Latta</h3>
+            </details>
+        <h2>Q.3 Name of currency used in highseas ?</h2>
+        <details>
+            <summary>answer</summary>
+            <h3>doubloons</h3>
+            </details>
+        <h2>Q.4 Name of the event recently took pace in shangai china ?</h2>
+        <details>
+            <summary>answer</summary>
+            <h3>Juice</h3>
+            </details>
+        <h2>Q.5 What is the name of Github's mascot ?</h2>
+        <details>
+            <summary>answer</summary>
+            <h3>Octocat</h3>
+            </details>
+    </div>
+            
+    <div class="button1">
+        <a href="/about">About Me</a></div>
+    <div class="button1">
+        <a href="/troll">Troll</a></div>
+        
+<footer>HOPE YOU LIKE IT !!!</footer>
+{% endblock %}
+</body>
+</html>

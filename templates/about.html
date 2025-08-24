@@ -1,0 +1,22 @@
+{% extends "index.html" %}
+{% block title %}
+About Me
+{% endblock %}
+{% block content %}
+<p>Hi there my name is {{ user_name }}</p>
+<p>I am a highschool student and a hackclub member</p>
+<p>I love coding and Art stuff</p>
+<p>I am from India</p>
+<div class="container1">
+        <li><a href="https://github.com/ShivSingh3108">MY GITHUB</a></li>
+            <li><a href="mailto:singhshiv3108@gmail.com">MY EMAIL</a></li>
+            <li><a href="sms:+918928424873">TEXT ME</a></li>
+            <li><a href="tel:+918928424873">CALL ME</a></li>
+            <li><a href="https://hackclub.slack.com/team/U082UD14JAE/">MY SLACK</a></li>
+            <li><a href="https://www.instagram.com/__shiv_3108__?igsh=MTM1enZ3cmFqOTExcg==">MY INSTA</a></li></div>
+<div class="button1">
+        <a href="/">Home</a></div>
+    <div class="button1">
+        <a href="/troll">Troll</a></div>
+<footer>MADE BY {{user_name}}</footer>
+{% endblock %}
